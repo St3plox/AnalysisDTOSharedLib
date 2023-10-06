@@ -8,7 +8,7 @@ import lombok.experimental.SuperBuilder;
 @AllArgsConstructor
 @Getter
 @SuperBuilder
-public class ContentObject {
+public class ContentDTO {
 
     private String id;
 

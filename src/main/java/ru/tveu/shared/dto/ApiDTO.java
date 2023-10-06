@@ -5,12 +5,12 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class ApiTransferObject {
+public class ApiDTO {
 
     private final String id;
 
     private int contentSize;
 
-    private List<ContentObject> content;
+    private List<ContentDTO> content;
 
 }
