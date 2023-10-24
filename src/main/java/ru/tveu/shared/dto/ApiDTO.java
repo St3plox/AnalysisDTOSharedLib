@@ -13,4 +13,7 @@ public class ApiDTO<T extends ContentDTO>{
 
     private List<T> content;
 
+    public ApiDTO() {
+        this.id = null;
+    }
 }
